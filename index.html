@@ -15,7 +15,11 @@
   <body>
     <div class="container">
       <div class="enter-todo">
-        <input type="text" placeholder="Enter your input" id="todo-input" />
+        <input type="text" placeholder="Enter your todo" id="todo-input" />
+        <div class="date-time">
+          <input type="date" name="date" class="calender" id="today" />
+          <input type="time" id="time" class="clock" />
+        </div>
         <button id="add-todo">ADD TODO</button>
       </div>
       <ul class="todo-items" id="todo-items"></ul>

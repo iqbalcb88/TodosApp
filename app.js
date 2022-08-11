@@ -69,7 +69,7 @@ function createTodoList() {
       li.innerHTML = `<div class="draggable" id="draggable" draggable='true'>
     <p>${todo}</p>
     <button data-index=${i} id='remove' class='remove'>
-    X
+    <i class="fa fa-trash" aria-hidden="true"></i>
     </button>
     </div>`;
       listItems.push(li);
@@ -129,3 +129,7 @@ add.addEventListener('click', createTodoList);
 // draggable list
 
 createTodoList();
+
+// fix date time
+let today = new Date().toISOString().substr(0, 10);
+document.querySelector('#today').value = today;

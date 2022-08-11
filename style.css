@@ -102,3 +102,24 @@
   color: #f9fafb;
   background-color: #e74c3c;
 }
+
+.date-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 1;
+}
+
+.date-time input {
+  margin: 1rem 0 0;
+  padding: 0.5rem 0.25rem;
+  /* border-radius: 0; */
+  width: 100%;
+}
+
+.date-time input:first-of-type {
+  margin-right: 0.5rem;
+}
+.date-time input:last-of-type {
+  margin-left: 0.5rem;
+}
