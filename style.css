@@ -91,4 +91,14 @@
 
 .remove {
   padding: 0.2rem;
+  font-weight: bold;
+  color: #e74c3c;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  border: 1px solid #e74c3c;
+}
+
+.remove:hover {
+  color: #f9fafb;
+  background-color: #e74c3c;
 }
